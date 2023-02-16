@@ -32,7 +32,7 @@ st.markdown("Download your favorite playlists with just a few clicks!")
 
 scope = 'user-library-read playlist-read-private'
 
-token = util.prompt_for_user_token('your-username', scope, client_id=CLIENT_ID, client_secret=CLIENT_SECRET,
+token = util.prompt_for_user_token('vallabhpadhye@rediffmail.com', scope, client_id=CLIENT_ID, client_secret=CLIENT_SECRET,
 
                                    redirect_uri='http://localhost:8080/callback/')
 
